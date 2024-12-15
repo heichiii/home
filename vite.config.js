@@ -99,7 +99,7 @@ export default ({ mode }) =>
       alias: [
         {
           find: "@",
-          replacement: resolve(__dirname, "src"),
+          replacement: resolve(__dirname, "./src"),
         },
       ],
     },
